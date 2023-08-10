@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+.topic {
+    margin-bottom: 2rem;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#userAnswer {
+    width: 40px;
+}
+
+#checkButton {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
